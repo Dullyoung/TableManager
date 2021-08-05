@@ -2,21 +2,25 @@
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+
 }
 
 .item-def {
-  width: 20%;
+  width: calc(20vw - 4rpx);
   height: 50rpx;
   text-align: center;
   line-height: 50rpx;
   border: 1rpx solid #666666;
 }
-.state-1{
+
+.state-1 {
   background: yellow;
 }
-.state-2{
+
+.state-2 {
   background: #999999;
 }
-.state-0{
-  
+
+.state-0 {
+  /* no color */
 }
