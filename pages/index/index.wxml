@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="root">
+  <block wx:for="{{tableInfo}}">
+    <view class="item-def state-{{item.useIndex}}">{{item.deskName}}</view>
+  </block>
+</view>
